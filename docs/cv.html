@@ -1,0 +1,196 @@
+---
+layout: default
+extra_css:
+  - foo.css
+---
+
+<header>
+  {% for css_name in page.extra_css %}
+  <link rel="stylesheet" href="../css/{{ css_name }}" />
+  {% endfor %}
+</header>
+<section id="banner">
+  <div class="inner">
+    <h2>Mv CV</h2>
+  </div>
+</section>
+<div class="row">
+  <section class="mt-2 col-md-8 offset-md-2 page-container">
+    <nav class="global-sidebar"></nav>
+    <section class="page">
+      <div class="row">
+        <!-- NVE content div -->
+
+        <ul id="timeline" class="timeline">
+          <div class="arrowhead"></div>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge">Oct 2019</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Fulltime software development freelancer</h3>
+              </div>
+
+              <div class="timeline-body"></div>
+            </div>
+          </li>
+
+          <li class="">
+            <div class="timeline-badge">Jan 2019</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Software developer at Fedger.io</h3>
+              </div>
+              <div class="timeline-body"></div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge">Jul 2017</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Research associate at RWTH Aachen University</h3>
+              </div>
+
+              <div class="timeline-body"></div>
+            </div>
+          </li>
+
+          <li class="">
+            <div class="timeline-badge">Jun 2017</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title"><span class="badge bg-primary">IEEE</span>Trajectory Planning</h3>
+              </div>
+
+              <div class="timeline-body">
+                Distributed multi-robot coordination for dynamic perimeter surveillance in uncertain environments
+                https://ieeexplore.ieee.org/abstract/document/7989035
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge">May 2017</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title"><span class="badge bg-primary">Open Access</span>Circuit Development</h3>
+              </div>
+
+              <div class="timeline-body">
+                Development of a chopper charge amplifier for measuring the cavity pressure inside injection moulding tools and signal optimisation with a
+                Kalman filter
+              </div>
+            </div>
+          </li>
+
+          <li class="">
+            <div class="timeline-badge">Apr 2017</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Master's Degree in Robotics from the UFMG</h3>
+              </div>
+
+              <div class="timeline-body"></div>
+            </div>
+          </li>
+
+          <li class="">
+            <div class="timeline-badge">Oct 2016</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title"><span class="badge bg-primary">IEEE</span>Trajectory Planning</h3>
+              </div>
+
+              <div class="timeline-body">
+                Sampling Based Path Planning and Vector Fields for Curve Tracking by UAVs https://ieeexplore.ieee.org/abstract/document/7783530
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge">May 2016</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title"><span class="badge bg-primary">Poster</span>Circuit publication</h3>
+              </div>
+
+              <div class="timeline-body">
+                Entwicklung eines unipolaren differentiellen Ladungsverstärkers für die Anwendung in eingebetteten Diagnosesystemen zur Druckmessung in
+                Spritzgussmaschinen
+                <!-- https://www.researchgate.net/profile/Manuel-Schneider-4/publication/305642343_Entwicklung_eines_unipolaren_differentiellen_Ladungsverstarkers_fur_die_Anwendung_in_eingebetteten_Diagnosesystemen_zur_Druckmessung_in_Spritzgussmaschinen/links/59106465458515bf652b439b/Entwicklung-eines-unipolaren-differentiellen-Ladungsverstaerkers-fuer-die-Anwendung-in-eingebetteten-Diagnosesystemen-zur-Druckmessung-in-Spritzgussmaschinen.pdf -->
+              </div>
+            </div>
+          </li>
+
+          <li class="">
+            <div class="timeline-badge">Mar 2015</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Start of Master's Degree</h3>
+              </div>
+
+              <div class="timeline-body">UFMG, Robotics group</div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
+            <div class="timeline-badge">Sept 2014</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title"><span class="badge bg-primary">IEEE</span>Sensor Development</h3>
+              </div>
+
+              <div class="timeline-body">
+                A level sensor for fluids based on hydrostatic deformation with piezoelectric generated sounds in a low frequency range
+                https://ieeexplore.ieee.org/abstract/document/6924397
+              </div>
+            </div>
+          </li>
+
+          <!--
+          <li class="timeline-inverted">
+            <div class="timeline-badge">1887</div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">
+                  Test
+                </h3>
+              </div>
+
+              <div class="timeline-body">
+                <p>
+                   viverra. Ut tincidunt tellus ac felis tempor gravida. Aliquam erat
+                  volutpat. Cras eget lectus est. Integer nec venenatis dolor. Nullam eget leo libero.
+                </p>
+              </div>
+
+              <div class="timeline-footer">
+                <a
+                  href="#"
+                  >Les mer</a
+                >
+              </div>
+            </div>
+          </li> -->
+
+          <!-- Ending -->
+          <div style="clear: both"></div>
+          <li class="last">
+            <div class="timeline-badge">1988</div>
+            <div class="timeline-panel">
+              <img src="../images/sh.jpg" style="max-width: 100%" />
+
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Born in Schleswig-Holstein</h3>
+              </div>
+
+              <div class="timeline-body"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- NVE content div -->
+    </section>
+  </section>
+</div>
