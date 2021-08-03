@@ -81,7 +81,7 @@
 }
 
 .timeline-body img {
-  max-width:100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -181,8 +181,9 @@
 /*Content*/
 .timeline-title {
   margin-top: 0;
-  padding: 20px 20px 0px 20px;
+  padding: 10px 0px 0px 0px;
   color: inherit;
+  text-align: center;
 }
 .timeline-body {
   padding: 10px;
@@ -195,7 +196,12 @@
 .timeline-body > p + p {
   margin-top: 5px;
 }
-span.badge {
+
+.timeline-panel .badge-container {
+  padding: 10px;
+}
+.badge-container .badge {
+  font-size: large;
   margin-right: 10px;
 }
 .timeline-footer {
@@ -208,9 +214,9 @@ span.badge {
   cursor: pointer;
   text-decoration: none;
 }
-.timeline-body > section > h4{
-margin-top: 1em;
-margin-bottom: 2px;
+.timeline-body > section > h4 {
+  margin-top: 0.1em;
+  margin-bottom: 2px;
 }
 
 /*Placement small devices*/
