@@ -1,56 +1,71 @@
 ---
-layout: landing-page
+layout: default
+extra_css:
+  - landing.css
 ---
 
-<!-- One -->
-<section id="one" class="wrapper style1">
+{% for css_name in page.extra_css %}
+<link rel="stylesheet" href="../css/{{ css_name }}" />
+{% endfor %}
+
+<!-- Hero -->
+<section id="banner">
+  <div class="inner">
+    <img class="hero-img" src="../images/landing/Alexander_Jahn.jpg" alt="Picture of Alexander Jahn" />
+    <h2>Hey, I'm Alex</h2>
+    <p>Software engineering, robotics and creative problem solving</p>
+    <ul class="actions">
+      <li><a href="#contact" class="button big special">Get in touch</a></li>
+      <li><a href="#services" class="button big alt">Services</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="wrapper style1">
   <header class="major">
     <h2>Services offered</h2>
     <p>Get in touch for more information</p>
   </header>
-  <div class="container">
-    <div class="row">
-      <div class="4u">
-        <section class="special box">
-          <i class="icon fa-area-chart major"></i>
-          <h3>You want a robot</h3>
-          <p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-        </section>
+  <div class="row services">
+    <div class="card">
+      <i class="icon fa-area-chart major"></i>
+      <div class="card-body">
+        <h3 class="card-title">You want a robot</h3>
+        <p class="card-text">You have an application in mind but do not know if it's possible or viable?</p>
+        <a href="/iwantarobot" class="btn btn-primary">More info</a>
       </div>
-      <div class="4u">
-        <section class="special box">
-          <i class="icon fa-refresh major"></i>
-          <h3>You have a robot</h3>
-          <p>But the application needs to be extended? I have years of experience with ABB and Fanuc.</p>
-        </section>
+    </div>
+    <div class="card">
+      <i class="icon fa-area-chart major"></i>
+      <div class="card-body">
+        <h3 class="card-title">You have a robot</h3>
+        <p class="card-text">You need to make a change to an existing setup?</p>
+        <a href="/ihavearobot" class="btn btn-primary">More info</a>
       </div>
-      <div class="4u">
-        <section class="special box">
-          <i class="icon fa-cog major"></i>
-          <h3>You use Ultrasound for NDT</h3>
-          <p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-        </section>
+    </div>
+    <div class="card">
+      <i class="icon fa-area-chart major"></i>
+      <div class="card-body">
+        <h3 class="card-title">You use Ultrasound for NDT</h3>
+        <p class="card-text">Interested in automating your existing NDT process for more productivity?</p>
+        <a href="/iuseultrasoundndt" class="btn btn-primary">More info</a>
       </div>
-      <div class="4u">
-        <section class="special box">
-          <i class="icon fa-cog major"></i>
-          <h3>You need automated visual inspection</h3>
-          <p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-        </section>
+    </div>
+    <div class="card">
+      <i class="icon fa-area-chart major"></i>
+      <div class="card-body">
+        <h3 class="card-title">You need programming support for your team</h3>
+        <p class="card-text">You have low productivity or your architecture needs a review?</p>
+        <a href="/programmingsupport" class="btn btn-primary">More info</a>
       </div>
-      <div class="4u">
-        <section class="special box">
-          <i class="icon fa-cog major"></i>
-          <h3>You need programming support for your team</h3>
-          <p>You have low productivity or you architecture needs a review?</p>
-        </section>
-      </div>
-      <div class="4u">
-        <section class="special box">
-          <i class="icon fa-cog major"></i>
-          <h3>You need to automatize a process within your project?</h3>
-          <p></p>
-        </section>
+    </div>
+    <div class="card">
+      <i class="icon fa-area-chart major"></i>
+      <div class="card-body">
+        <h3 class="card-title">Process automation</h3>
+        <p class="card-text">You need to automatize a process within your project?</p>
+        <a href="/ihavearobot" class="btn btn-primary">More info</a>
       </div>
     </div>
   </div>
@@ -66,7 +81,7 @@ layout: landing-page
     <div class="row">
       <div class="6u">
         <section class="special">
-          <a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+          <a href="#" class="image fit"><img src="" alt="" /></a>
           <h3>Mollis adipiscing nisl</h3>
           <p>
             Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem
@@ -79,7 +94,7 @@ layout: landing-page
       </div>
       <div class="6u">
         <section class="special">
-          <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+          <a href="#" class="image fit"><img src="" alt="" /></a>
           <h3>Neque ornare adipiscing</h3>
           <p>
             Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem
@@ -101,7 +116,7 @@ layout: landing-page
       <div class="8u">
         <section>
           <h2>Mollis ut adipiscing</h2>
-          <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+          <a href="#" class="image fit"><img src="" alt="" /></a>
           <p>
             Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum
             ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare
@@ -136,3 +151,23 @@ layout: landing-page
     </div>
   </div>
 </section>
+
+<div class="container">
+  <h2 id="contact">Contact Form</h2>
+  <form action="https://formspree.io/f/xnqlggyl" method="POST">
+    <label>
+      Your email:
+      <input type="email" name="_replyto" />
+    </label>
+    <label>
+      Your phone number:
+      <input type="text" name="telehone" />
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+
+    <button class="button bg-primary float-right" type="submit">Send</button>
+  </form>
+</div>
