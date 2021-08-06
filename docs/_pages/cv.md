@@ -8,7 +8,41 @@ layout: default
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/timeline.css" />
+  <script>
+function scrollToTop(duration) {
+    // cancel if already on top
+    if (document.scrollingElement.scrollTop === 0) return;
+
+    const cosParameter = document.scrollingElement.scrollTop / 2;
+    let scrollCount = 0, oldTimestamp = null;
+
+    function step(newTimestamp) {
+        if (oldTimestamp !== null) {
+            // if duration is 0 scrollCount will be Infinity
+            scrollCount += Math.PI * (newTimestamp - oldTimestamp) / duration;
+            if (scrollCount >= Math.PI) return document.scrollingElement.scrollTop = 0;
+            document.scrollingElement.scrollTop = cosParameter + cosParameter * Math.cos(scrollCount);
+        }
+        oldTimestamp = newTimestamp;
+        window.requestAnimationFrame(step);
+    }
+    window.requestAnimationFrame(step);
+
+}
+
+document.addEventListener('scroll', function (e) {
+  var btn = document.getElementById("back-button");
+    if (window.scrollY > 300) {
+      btn.classList.add("show");
+    } else {
+      btn.classList.remove("show");
+    }
+
+});
+  </script>
+
 </header>
+<a id="back-button" onclick="scrollToTop(1000);"><i class="fas fa-chevron-up"></i></a>
 <div class="row">
   <section class="mt-2 col-md-10 offset-md-1 page-container">
         <!-- NVE content div -->
@@ -17,6 +51,45 @@ layout: default
           <div class="arrowhead"></div>
 
           <li class="">
+            <div class="timeline-badge">Oct 2019</div>
+            <div class="timeline-panel">
+              <div class="" style="padding: 5px; background-color: #ffffff">
+                <img class="timeline-img-banner" src="../assets/logo.svg" alt="" />
+              </div>
+              <div class="badge-container">
+                <span class="badge bg-secondary">Current Job</span>
+              </div>
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Freelance Software Engineer</h3>
+              </div>
+              <div class="timeline-body">
+                <section>
+                  <h4>Things I do</h4>
+                  <ul>
+                    <li>Working on automated inspection stations for turbine-blades (gas and steam)</li>
+                    <li>Estimating and budgeting projects</li>
+                    <li>System software development (C# .Net)</li>
+                    <li>Owning the deployed solutions and taking care or production interruptions (DevOps)</li>
+                    <li>Process engineering (integrating industrial robots, databases, PLCs, MES)</li>
+                    <li>State driven robot control</li>
+                    <li>Integration of ABB and Fanuc robots</li>
+                    <li>
+                      Industrial ultrasound-data (NDT) processing (<a target="_blank" href="https://www.hillger-ndt.de/" rel="noopener noreferrer">Hillger</a>)
+                    </li>
+                    <li>Automatic robot control (process adaptive robot movements)</li>
+                    <li>Prototype development for AI-based process automation</li>
+                    <li>Concept development for power electronics</li>
+                    <li>Documentation (video editing, CGI)</li>
+                    <li>Website-Design</li>
+                    <li>Tech I like to work with: C#, Python, RAPID, Fanuc TP, MS SQL, HTML+JS+CSS, Vue, Node, Wordpress, Mongo DB, Typescript</li>
+                    <li>How I like to work: Rapid prototyping and agile</li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-inverted">
             <div class="timeline-badge">Jun 2020</div>
             <div class="timeline-panel">
               <div class="" style=" background-color: #ffffff">
@@ -50,45 +123,6 @@ layout: default
                       <a href="https://web.archive.org/web/20210803165239/https://ionkraft.com/" target="_blank" rel="noopener noreferrer">link</a> including
                       all animations
                     </li>
-                  </ul>
-                </section>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-badge">Oct 2019</div>
-            <div class="timeline-panel">
-              <div class="" style="padding: 5px; background-color: #ffffff">
-                <img class="timeline-img-banner" src="../assets/logo.svg" alt="" />
-              </div>
-              <div class="badge-container">
-                <span class="badge bg-secondary">Current Job</span>
-              </div>
-              <div class="timeline-heading">
-                <h3 class="timeline-title">Freelance Software Engineer</h3>
-              </div>
-              <div class="timeline-body">
-                <section>
-                  <h4>Things I do</h4>
-                  <ul>
-                    <li>Working on automated inspection stations for turbine-blades (gas and steam)</li>
-                    <li>Estimating and budgeting projects</li>
-                    <li>System software development (C# .Net)</li>
-                    <li>Owning the deployed solutions and taking care or production interruptions (DevOps)</li>
-                    <li>Process engineering (integrating industrial robots, databases, PLCs, MES)</li>
-                    <li>State driven robot control</li>
-                    <li>Integration of ABB and Fanuc robots</li>
-                    <li>
-                      Industrial ultrasound-data (NDT) processing (<a target="_blank" href="https://www.hillger-ndt.de/" rel="noopener noreferrer">Hillger</a>)
-                    </li>
-                    <li>Automatic robot control (process adaptive robot movements)</li>
-                    <li>Prototype development for AI-based process automation</li>
-                    <li>Concept development for power electronics</li>
-                    <li>Documentation (video editing, CGI)</li>
-                    <li>Website-Design</li>
-                    <li>Tech I like to work with: C#, Python, RAPID, Fanuc TP, MS SQL, HTML+JS+CSS, Vue, Node, Wordpress, Mongo DB, Typescript</li>
-                    <li>How I like to work: Rapid prototyping and agile</li>
                   </ul>
                 </section>
               </div>
