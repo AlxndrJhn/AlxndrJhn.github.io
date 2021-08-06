@@ -32,7 +32,32 @@ feature_row:
     excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"
 ---
+<header>
+  <!-- <link rel="stylesheet" href="../assets/css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" href="../assets/css/style.css" /> -->
 
+</header>
 {% include feature_row %}
+
+
+<div class="container">
+  <h2 id="contact">Contact Form</h2>
+  <form action="https://formspree.io/f/xnqlggyl" method="POST">
+    <label>
+      Your email:
+      <input type="email" name="_replyto" />
+    </label>
+    <label>
+      Your phone number:
+      <input type="text" name="telehone" />
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+
+    <button class="btn btn--primary" type="submit">Send</button>
+  </form>
+</div>

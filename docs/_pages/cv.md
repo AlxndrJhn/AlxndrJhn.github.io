@@ -81,7 +81,7 @@ document.addEventListener('scroll', function (e) {
                     <li>Concept development for power electronics</li>
                     <li>Documentation (video editing, CGI)</li>
                     <li>Website-Design</li>
-                    <li>Tech I like to work with: C#, Python, RAPID, Fanuc TP, MS SQL, HTML+JS+CSS, Vue, Node, Wordpress, Mongo DB, Typescript</li>
+                    <li>Tech I like to work with: C#, Python, RAPID, Fanuc TP, MS SQL, HTML+JS+CSS, Vue, Node, Wordpress, Mongo DB, Typescript, AWS, Github, MS Teams</li>
                     <li>How I like to work: Rapid prototyping and agile</li>
                   </ul>
                 </section>
@@ -161,7 +161,7 @@ document.addEventListener('scroll', function (e) {
                     <li>Interacting with product owners</li>
                     <li>Improving a PyQt labeling tool</li>
                     <li>Participating in client-meetings as expert</li>
-                    <li>Tech stack: Python, Pytest, Dart, HTML+JS+CSS, PostgreSQL, Docker, Drone.io, Jupyter</li>
+                    <li>Tech stack: Python, Pytest, Dart, HTML+JS+CSS, PostgreSQL, Docker, Drone.io, GCP, Jupyter, Github, metabase, Slack</li>
                   </ul>
                   <a target="_blank" href="https://github.com/AlxndrJhn?tab=overview&from=2019-01-01&to=2019-12-31">
                     <img src="../assets/cv/2019_gh_activity.png" alt="Github activity" />
