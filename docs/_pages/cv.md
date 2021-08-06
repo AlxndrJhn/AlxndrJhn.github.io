@@ -157,7 +157,10 @@ document.addEventListener('scroll', function (e) {
                     <li>Interface definitions</li>
                     <li>Setting up CI-Pipelines</li>
                     <li>Scalable applications based on PubSub architecture</li>
+                    <li>Data-analysis using notebooks</li>
+                    <li>Interacting with product owners</li>
                     <li>Improving a PyQt labeling tool</li>
+                    <li>Participating in client-meetings as expert</li>
                     <li>Tech stack: Python, Pytest, Dart, HTML+JS+CSS, PostgreSQL, Docker, Drone.io, Jupyter</li>
                   </ul>
                   <a target="_blank" href="https://github.com/AlxndrJhn?tab=overview&from=2019-01-01&to=2019-12-31">
@@ -205,7 +208,7 @@ document.addEventListener('scroll', function (e) {
                     <li>Supervision of student workers</li>
                     <li>Tech stack: Python, C#, Fanuc TP</li>
                   </ul>
-                  Check out my <a target="_blank" href="../documents/2018_rwth_wzl_abschluss_zeugnis.pdf">certificate of employment (german)</a>
+                  Check out my <a target="_blank" href="../assets/documents/2018_rwth_wzl_abschluss_zeugnis.pdf">certificate of employment (german)</a>
                 </section>
               </div>
             </div>
@@ -306,9 +309,9 @@ document.addEventListener('scroll', function (e) {
               <div class="timeline-body">
                 Summary: This work addresses the problem of robotic perimeter surveillance for a single robot and a cooperative group of robots.
                 <br />
-                Equivalent grade: 1.9 (<a target="_blank" href="../documents/2021_Mestre_Gleichwertigkeit.pdf">RWTH assessment</a>) <br />
+                Equivalent grade: 1.9 (<a target="_blank" href="../assets/documents/2021_Mestre_Gleichwertigkeit.pdf">RWTH assessment</a>) <br />
                 Check out my
-                <a target="_blank" href="../documents/2017_transcript_master.pdf">transcript</a> or
+                <a target="_blank" href="../assets/documents/2017_transcript_master.pdf">transcript</a> or
                 <a target="_blank" href="https://www.ppgee.ufmg.br/diss_defesas_detalhes.php?aluno=1404" rel="noopener noreferrer"
                   >my master's thesis (at the bottom)</a
                 >.
@@ -371,7 +374,7 @@ document.addEventListener('scroll', function (e) {
 
               <div class="timeline-body">
                 Awarded 2500€ <br />
-                Check out the <a target="_blank" href="../documents/2016_hsm-hochschuljournal-201601_web.pdf">university report (page 28, top left)</a>
+                Check out the <a target="_blank" href="../assets/documents/2016_hsm-hochschuljournal-201601_web.pdf">university report (page 28, top left)</a>
               </div>
             </div>
           </li>
@@ -432,7 +435,7 @@ document.addEventListener('scroll', function (e) {
               <div class="timeline-body">
                 Final grade: 1.5 (German system)<br />
                 Title: "Konzeption, Umsetzung und Test einer analogen Signalaufbereitungsschaltung für piezoelektrische Drucksensoren."<br />
-                Check out my <a target="_blank" href="../documents/2015_transcript_bachelor.pdf">transcript and grades</a>
+                Check out my <a target="_blank" href="../assets/documents/2015_transcript_bachelor.pdf">transcript and grades</a>
               </div>
             </div>
           </li>
@@ -517,8 +520,8 @@ document.addEventListener('scroll', function (e) {
 
               <div class="timeline-body">
                 Final grade: 94% <br />
-                Check out my <a target="_blank" href="../documents/2013_bosch_result.pdf">final grade</a> <br />
-                or my <a target="_blank" href="../documents/2013_bosch.pdf">certificate of employment (german)</a>
+                Check out my <a target="_blank" href="../assets/documents/2013_bosch_result.pdf">final grade</a> <br />
+                or my <a target="_blank" href="../assets/documents/2013_bosch.pdf">certificate of employment (german)</a>
               </div>
             </div>
           </li>
@@ -547,7 +550,7 @@ document.addEventListener('scroll', function (e) {
                     <li>Tech stack: C#, Matlab</li>
                   </ul>
                 </section>
-                Check out the <a target="_blank" href="../documents/2012_FH_Schmalkalden_Contracts.pdf">overview of the 11 contracts</a>
+                Check out the <a target="_blank" href="../assets/documents/2012_FH_Schmalkalden_Contracts.pdf">overview of the 11 contracts</a>
               </div>
             </div>
           </li>
@@ -638,7 +641,7 @@ document.addEventListener('scroll', function (e) {
 
               <div class="timeline-body">
                 Final grade: 2.9 (German system) <br />
-                Check out my <a target="_blank" href="../documents/2008_abitur.pdf">abitur</a>
+                Check out my <a target="_blank" href="../assets/documents/2008_abitur.pdf">abitur</a>
               </div>
             </div>
           </li>

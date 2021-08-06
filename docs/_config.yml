@@ -23,7 +23,7 @@ google_site_verification: "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replac
 twitter:
   username: &twitter "alxndr__jhn"
 
-og_image: "/assets/images/site-logo.png" # Open Graph/Twitter default site image
+og_image: "/assets/images/logo.svg" # Open Graph/Twitter default site image
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -173,6 +173,9 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-include-cache
+
+atom_feed:
+  hide: true
 
 # mimic GitHub Pages with --safe
 whitelist:
