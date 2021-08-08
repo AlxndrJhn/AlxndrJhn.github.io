@@ -8,6 +8,8 @@ layout: default
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/timeline.css" />
+  <link rel="stylesheet" href="../assets/css/all.min.css" />
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
   <script>
 function scrollToTop(duration) {
     // cancel if already on top
@@ -31,21 +33,20 @@ function scrollToTop(duration) {
 }
 
 document.addEventListener('scroll', function (e) {
-  var btn = document.getElementById("back-button");
-    if (window.scrollY > 300) {
-      btn.classList.add("show");
-    } else {
-      btn.classList.remove("show");
-    }
+var btn = document.getElementById("back-button");
+if (window.scrollY > 300) {
+btn.classList.add("show");
+} else {
+btn.classList.remove("show");
+}
 
 });
-  </script>
+</script>
 
 </header>
 <a id="back-button" onclick="scrollToTop(1000);"><i class="fas fa-chevron-up"></i></a>
 <div class="row">
   <section class="mt-2 col-md-10 offset-md-1 page-container">
-        <!-- NVE content div -->
 
         <ul id="timeline" class="timeline">
           <div class="arrowhead"></div>
@@ -63,28 +64,29 @@ document.addEventListener('scroll', function (e) {
                 <h3 class="timeline-title">Freelance Software Engineer</h3>
               </div>
               <div class="timeline-body">
-                <section>
-                  <h4>Things I do</h4>
-                  <ul>
-                    <li>Working on automated inspection stations for turbine-blades (gas and steam)</li>
-                    <li>Estimating and budgeting projects</li>
-                    <li>System software development (C# .Net)</li>
-                    <li>Owning the deployed solutions and taking care or production interruptions (DevOps)</li>
-                    <li>Process engineering (integrating industrial robots, databases, PLCs, MES)</li>
-                    <li>State driven robot control</li>
-                    <li>Integration of ABB and Fanuc robots</li>
-                    <li>
-                      Industrial ultrasound-data (NDT) processing (<a target="_blank" href="https://www.hillger-ndt.de/" rel="noopener noreferrer">Hillger</a>)
-                    </li>
-                    <li>Automatic robot control (process adaptive robot movements)</li>
-                    <li>Prototype development for AI-based process automation</li>
-                    <li>Concept development for power electronics</li>
-                    <li>Documentation (video editing, CGI)</li>
-                    <li>Website-Design</li>
-                    <li>Tech I like to work with: C#, Python, RAPID, Fanuc TP, MS SQL, HTML+JS+CSS, Vue, Node, Wordpress, Mongo DB, Typescript, AWS, Github, MS Teams</li>
-                    <li>How I like to work: Rapid prototyping and agile</li>
-                  </ul>
-                </section>
+                <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freelance-card" aria-expanded="false" aria-controls="freelance-card"></button>
+                <div class="collapsible collapse" id="freelance-card" style="">
+                    <h4>Things I do</h4>
+                    <ul>
+                      <li>Working on automated inspection stations for turbine-blades (gas and steam)</li>
+                      <li>Estimating and budgeting projects</li>
+                      <li>System software development (C# .Net)</li>
+                      <li>Owning the deployed solutions and taking care or production interruptions (DevOps)</li>
+                      <li>Process engineering (integrating industrial robots, databases, PLCs, MES)</li>
+                      <li>State driven robot control</li>
+                      <li>Integration of ABB and Fanuc robots</li>
+                      <li>
+                        Industrial ultrasound-data (NDT) processing (<a target="_blank" href="https://www.hillger-ndt.de/" rel="noopener noreferrer">Hillger</a>)
+                      </li>
+                      <li>Automatic robot control (process adaptive robot movements)</li>
+                      <li>Prototype development for AI-based process automation</li>
+                      <li>Concept development for power electronics</li>
+                      <li>Documentation (video editing, CGI)</li>
+                      <li>Website-Design</li>
+                      <li>Tech I like to work with: C#, Python, RAPID, Fanuc TP, MS SQL, HTML+JS+CSS, Vue, Node, Wordpress, Mongo DB, Typescript, AWS, Github, MS Teams</li>
+                      <li>How I like to work: Rapid prototyping and agile</li>
+                    </ul>
+                </div>
               </div>
             </div>
           </li>
@@ -101,7 +103,8 @@ document.addEventListener('scroll', function (e) {
               <div class="timeline-body">
                 From June 2020 until we parted ways in April 2021. Part of the 4 headed founding team. The project focused on plasma coating technology to
                 enable recyclable high barrier packaging. A university spin-off.
-                <section>
+                <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cofounder-card" aria-expanded="false" aria-controls="cofounder-card"></button>
+                <div class="collapse" id="cofounder-card" style="transition: 0.35s;">
                   <h4>I contributed to:</h4>
                   <ul>
                     <li>Responsible for all areas related to power electronics, process and robotics</li>
@@ -124,7 +127,7 @@ document.addEventListener('scroll', function (e) {
                       all animations
                     </li>
                   </ul>
-                </section>
+                </div>
               </div>
             </div>
           </li>

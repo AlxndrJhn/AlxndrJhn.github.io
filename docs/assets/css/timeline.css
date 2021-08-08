@@ -1,3 +1,52 @@
+/* expand button */
+.expand-button {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  width: 3em;
+  height: 3em;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  transition: transform 1s ease-in-out;
+}
+
+.expand-button:before {
+  color: #fff;
+  content: "\f077"; /* You should use \ and not /*/
+  font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 900;
+}
+
+.expand-button.collapsed {
+  transform: translateX(-50%) rotate(180deg);
+}
+
+/* collapsible hidden*/
+.collapsible {
+  transition: all 0.5s;
+}
+.collapsing:not(.show),
+.collapse:not(.show) {
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.collapsing:not(.show) {
+  min-height: 8em;
+}
+.collapse:not(.show) {
+  display: block;
+  overflow: hidden;
+  max-height: 8em;
+}
+
 /* back button */
 #back-button i {
   position: relative;
@@ -323,7 +372,7 @@
 
   ul.timeline > li > .timeline-badge,
   ul.timeline > li.timeline-inverted > .timeline-badge {
-    left: 0px;
+    left: 5px;
     font-size: 1em;
     text-align: left;
     top: 0px;
