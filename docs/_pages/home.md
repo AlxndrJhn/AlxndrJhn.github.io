@@ -6,41 +6,39 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "Get in touch"
+      url: "#contact"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  <h1 style="color: white;">I make robots smart.</h1>
+  <p style="color: white;margin-top: 10px">So they help you get things done</p>
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/assess.png
+    alt: "Robots"
+    title: "Assess"
+    excerpt: "Start by identifying processes that are unstable or inefficient"
+    url: "/robots/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/opti.png
+    alt: "ultrasound ndt"
+    title: "Optimize"
+    excerpt: "Make your existing processes more efficient by optimizing the workflow."
+    url: "/ndt/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+  - image_path: /assets/images/auto.png
+    alt: "Automatize"
+    title: "Automatize"
+    excerpt: "Make your internal process efficient or scale it up through custom software."
+    url: "/process/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
-<header>
-  <!-- <link rel="stylesheet" href="../assets/css/bootstrap.min.css" /> -->
-    <!-- <link rel="stylesheet" href="../assets/css/style.css" /> -->
 
+<header>
+  <link rel="stylesheet" href="../assets/css/landing.css" />
 </header>
 {% include feature_row %}
-
 
 <div class="container">
   <h2 id="contact">Contact Form</h2>
@@ -59,5 +57,6 @@ feature_row:
     </label>
 
     <button class="btn btn--primary" type="submit">Send</button>
+
   </form>
 </div>

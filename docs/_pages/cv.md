@@ -143,7 +143,7 @@ document.addEventListener('scroll', function (e) {
                 (liquidation at the end of 2019) a startup located in Cologne that focused on hospitality industry with deployed software products to automate
                 data extraction from images.
                 <section>
-                  <h4>I was dealing with:</h4>
+                  <h4>I was working on:</h4>
                   <ul>
                     <li>
                       Internal tooling (feedback system, developer-tools like
