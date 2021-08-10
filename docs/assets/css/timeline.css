@@ -1,3 +1,15 @@
+/* scroll trigger */
+.timeline-card.visible, .timeline-card.invisible {
+    opacity: 1.0;
+    transform: translate(0, 0);
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.timeline-card.invisible {
+    opacity: 0.0;
+    transform: translate(10px, 0);
+}
+
 /* expand button */
 .expand-button {
   background-color: #6c757d;
@@ -32,6 +44,7 @@
 /* collapsible hidden*/
 .collapsible {
   transition: all 0.5s;
+  padding-bottom: 10px;
 }
 .collapsing:not(.show),
 .collapse:not(.show) {
@@ -148,8 +161,8 @@
   right: -15px;
   display: inline-block;
   border-top: 15px solid transparent;
-  border-left: 15px solid #bdbdbd;
-  border-right: 0 solid #bdbdbd;
+  border-left: 15px solid #808080;
+  border-right: 0 solid #808080;
   border-bottom: 15px solid transparent;
   content: " ";
 }
@@ -222,7 +235,7 @@
     border-top: 0 solid transparent;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 15px solid #bdbdbd;
+    border-bottom: 15px solid #808080;
   }
   .timeline .last .timeline-panel:after {
     top: -14px;
@@ -329,7 +342,6 @@
 
   ul.timeline > li {
     min-height: 50px;
-    margin-bottom: 20px;
     padding-right: 5px;
     position: relative;
     width: 100%;
@@ -367,7 +379,6 @@
     float: left;
     clear: left;
     margin-top: 0;
-    margin-bottom: 20px;
   }
 
   ul.timeline > li > .timeline-badge,

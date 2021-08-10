@@ -10,38 +10,9 @@ layout: default
   <link rel="stylesheet" href="../assets/css/timeline.css" />
   <link rel="stylesheet" href="../assets/css/all.min.css" />
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
-  <script>
-function scrollToTop(duration) {
-    // cancel if already on top
-    if (document.scrollingElement.scrollTop === 0) return;
-
-    const cosParameter = document.scrollingElement.scrollTop / 2;
-    let scrollCount = 0, oldTimestamp = null;
-
-    function step(newTimestamp) {
-        if (oldTimestamp !== null) {
-            // if duration is 0 scrollCount will be Infinity
-            scrollCount += Math.PI * (newTimestamp - oldTimestamp) / duration;
-            if (scrollCount >= Math.PI) return document.scrollingElement.scrollTop = 0;
-            document.scrollingElement.scrollTop = cosParameter + cosParameter * Math.cos(scrollCount);
-        }
-        oldTimestamp = newTimestamp;
-        window.requestAnimationFrame(step);
-    }
-    window.requestAnimationFrame(step);
-
-}
-
-document.addEventListener('scroll', function (e) {
-var btn = document.getElementById("back-button");
-if (window.scrollY > 300) {
-btn.classList.add("show");
-} else {
-btn.classList.remove("show");
-}
-
-});
-</script>
+  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/scrollToTop.js"></script>
+  <script src="../assets/js/scrollTriggerInit.js"></script>
 
 </header>
 <a id="back-button" onclick="scrollToTop(1000);"><i class="fas fa-chevron-up"></i></a>
@@ -51,7 +22,7 @@ btn.classList.remove("show");
         <ul id="timeline" class="timeline">
           <div class="arrowhead"></div>
 
-          <li class="">
+          <li class="timeline-card">
             <div class="timeline-badge">Oct 2019</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -65,7 +36,7 @@ btn.classList.remove("show");
               </div>
               <div class="timeline-body">
                 <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#freelance-card" aria-expanded="false" aria-controls="freelance-card"></button>
-                <div class="collapsible collapse" id="freelance-card" style="">
+                <div class="collapsible collapse" id="freelance-card">
                     <h4>Things I do</h4>
                     <ul>
                       <li>Working on automated inspection stations for turbine-blades (gas and steam)</li>
@@ -91,7 +62,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card timeline-card timeline-inverted">
             <div class="timeline-badge">Jun 2020</div>
             <div class="timeline-panel">
               <div class="" style=" background-color: #ffffff">
@@ -101,10 +72,11 @@ btn.classList.remove("show");
                 <h3 class="timeline-title">Co-Founding Member</h3>
               </div>
               <div class="timeline-body">
-                From June 2020 until we parted ways in April 2021. Part of the 4 headed founding team. The project focused on plasma coating technology to
-                enable recyclable high barrier packaging. A university spin-off.
+
                 <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cofounder-card" aria-expanded="false" aria-controls="cofounder-card"></button>
                 <div class="collapse" id="cofounder-card" style="transition: 0.35s;">
+                From June 2020 until we parted ways in April 2021. Part of the 4 headed founding team. The project focused on plasma coating technology to
+                enable recyclable high barrier packaging. A university spin-off.
                   <h4>I contributed to:</h4>
                   <ul>
                     <li>Responsible for all areas related to power electronics, process and robotics</li>
@@ -132,7 +104,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card">
             <div class="timeline-badge">Jan 2019</div>
             <div class="timeline-panel">
               <div class="" style="background-color: #112f91">
@@ -142,10 +114,12 @@ btn.classList.remove("show");
                 <h3 class="timeline-title">Fullstack Software Developer</h3>
               </div>
               <div class="timeline-body">
+
+                                <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fedger-card" aria-expanded="false" aria-controls="fedger-card"></button>
+                <div class="collapsible collapse" id="fedger-card">
                 <a target="_blank" href="https://web.archive.org/web/20191209175308/https://www.fedger.io/" rel="noopener noreferrer">Fedger.io</a> was
                 (liquidation at the end of 2019) a startup located in Cologne that focused on hospitality industry with deployed software products to automate
                 data extraction from images.
-                <section>
                   <h4>I was working on:</h4>
                   <ul>
                     <li>
@@ -169,12 +143,12 @@ btn.classList.remove("show");
                   <a target="_blank" href="https://github.com/AlxndrJhn?tab=overview&from=2019-01-01&to=2019-12-31">
                     <img src="../assets/cv/2019_gh_activity.png" alt="Github activity" />
                   </a>
-                </section>
+                </div>
               </div>
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Dez 2018</div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -185,7 +159,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card">
             <div class="timeline-badge">Jul 2017</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -196,8 +170,9 @@ btn.classList.remove("show");
               </div>
 
               <div class="timeline-body">
-                <section>
-                  <h4>I was dealing with:</h4>
+                <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wzl-card" aria-expanded="false" aria-controls="wzl-card"></button>
+                <div class="collapsible collapse" id="wzl-card">
+                  <h4>I was working on:</h4>
                   <ul>
                     <li>
                       Temporary project lead on a DFG project
@@ -212,12 +187,12 @@ btn.classList.remove("show");
                     <li>Tech stack: Python, C#, Fanuc TP</li>
                   </ul>
                   Check out my <a target="_blank" href="../assets/documents/2018_rwth_wzl_abschluss_zeugnis.pdf">certificate of employment (german)</a>
-                </section>
+                </div>
               </div>
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">Jun 2017</div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -229,7 +204,7 @@ btn.classList.remove("show");
           </li>
 
 
-          <li class="timeline-inverted">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Jun 2017</div>
             <div class="timeline-panel">
               <div class="" style="padding: 10px; background-color: #ffffff">
@@ -252,7 +227,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Jun 2017</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -279,7 +254,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">May 2017</div>
             <div class="timeline-panel">
               <div class="" style="padding: 10px; background-color: #ffffff">
@@ -299,7 +274,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Apr 2017</div>
             <div class="timeline-panel">
               <div class="" style="padding: 10px; background-color: #ffffff">
@@ -322,7 +297,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">Oct 2016</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -343,7 +318,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">May 2016</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -363,7 +338,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">Jul 2015</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -382,7 +357,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Jun 2015</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -397,7 +372,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">Mar 2015</div>
             <div class="timeline-panel">
               <div class="" style="padding: 10px; background-color: #ffffff">
@@ -414,7 +389,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card">
             <div class="timeline-badge">Feb 2015</div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -425,7 +400,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Feb 2015</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -443,7 +418,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Sept 2014</div>
             <div class="timeline-panel">
               <div class="" style="padding: 10px; background-color: #ffffff">
@@ -464,7 +439,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">Aug 2014</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -481,7 +456,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Jun 2013</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -496,7 +471,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">Apr 2013</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -511,7 +486,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Feb 2013</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -529,7 +504,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card">
             <div class="timeline-badge">Nov 2012</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -540,7 +515,8 @@ btn.classList.remove("show");
               </div>
 
               <div class="timeline-body">
-                <section>
+                              <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#working-student-card" aria-expanded="false" aria-controls="working-student-card"></button>
+                <div class="collapsible collapse" id="working-student-card">
                   <h4>Until 2014 was working on:</h4>
                   <ul>
                     <li>Visualization programming (taking Matlab code and translating to C#)</li>
@@ -552,13 +528,13 @@ btn.classList.remove("show");
                     <li>Traveling to a conference and presenting a work</li>
                     <li>Tech stack: C#, Matlab</li>
                   </ul>
-                </section>
                 Check out the <a target="_blank" href="../assets/documents/2012_FH_Schmalkalden_Contracts.pdf">overview of the 11 contracts</a>
+                </div>
               </div>
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Oct 2011</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -572,7 +548,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card">
             <div class="timeline-badge">Sep 2009</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -585,12 +561,29 @@ btn.classList.remove("show");
               <div class="timeline-body">
                 Company: Robert Bosch Fahrzeugelektrik Eisenach GmbH <br />
                 Location: Eisenach <br />
-                Type of education: "Dual-Studies", combines work-training and university studies.
+                Type of education: "Dual-Studies", combines work-training and university studies. <br/>
+                <button class="expand-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bosch-card" aria-expanded="false" aria-controls="bosch-card"></button>
+                <div class="collapsible collapse" id="bosch-card">
+                  <h4>Tasks:</h4>
+                    <ul>
+                      <li>PLC programming</li>
+                      <li>Flexible assembly systems</li>
+                      <li>Sensor basics and application</li>
+                      <li>Soldering, working with plastics</li>
+                      <li>Supervision and maintenance of industrial devices and machinery </li>
+                      <li>Hydraulics and pneumatic circuits</li>
+                      <li>Milling and lathe work</li>
+                      <li>Installation and wire work</li>
+                      <li>Main representative of the apprentices (elected) for the worker union</li>
+                      <li>PR work</li>
+                      <li>See <a target="_blank" href="../assets/documents/2013_bosch.pdf">complete list</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
           </li>
 
-          <li class="timeline-inverted">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Aug 2009</div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -601,7 +594,7 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card">
             <div class="timeline-badge">Jun 2009</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -612,13 +605,20 @@ btn.classList.remove("show");
               </div>
 
               <div class="timeline-body">
-                At `Werkstatt Neuwerk` <br />
+              The department assembled electric fence devices (including PCB soldering line), assembly of road work barriers (including LED soldering, glueing the striped red-white sticker to the barrier and assembly of the spring package) and assembly of agricultural heat lamps.
+              <h4>Tasks:</h4>
+                <ul>
+                  <li>Head of electronics-assembly production department (14 employees)</li>
+                  <li>Client and supplier communication</li>
+                  <li>Production supervision and planning</li>
+                </ul>
+                At `Werkstatt Neuwerk`
                 <a href="https://stiftung-mensch.com/" target="_blank" rel="noopener noreferrer">Link</a>
               </div>
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card">
             <div class="timeline-badge">Sept 2008</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -628,11 +628,17 @@ btn.classList.remove("show");
                 <h3 class="timeline-title">Start of Zivildienst</h3>
               </div>
 
-              <div class="timeline-body">At `Werkstatt Neuwerk` https://stiftung-mensch.com/</div>
+              <div class="timeline-body">
+              <h4>Tasks:</h4>
+                <ul>
+                  <li>Driving services</li>
+                  <li>Minor manual work like painting, construction, handy-man</li>
+                </ul>
+              At `Werkstatt Neuwerk` <a href="https://stiftung-mensch.com/" target="_blank" rel="noopener noreferrer">Link</a></div>
             </div>
           </li>
 
-          <li class="">
+          <li class="timeline-card timeline-inverted">
             <div class="timeline-badge">Jun 2008</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
@@ -649,32 +655,6 @@ btn.classList.remove("show");
             </div>
           </li>
 
-          <!--
-          <li class="timeline-inverted">
-            <div class="timeline-badge">1887</div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3 class="timeline-title">
-                  Test
-                </h3>
-              </div>
-
-              <div class="timeline-body">
-                <p>
-                   viverra. Ut tincidunt tellus ac felis tempor gravida. Aliquam erat
-                  volutpat. Cras eget lectus est. Integer nec venenatis dolor. Nullam eget leo libero.
-                </p>
-              </div>
-
-              <div class="timeline-footer">
-                <a
-                  href="#"
-                  >Les mer</a
-                >
-              </div>
-            </div>
-          </li> -->
-
           <!-- Ending -->
           <div style="clear: both"></div>
           <li class="last">
@@ -690,7 +670,6 @@ btn.classList.remove("show");
             </div>
           </li>
         </ul>
-      <!-- NVE content div -->
 
   </section>
 </div>
