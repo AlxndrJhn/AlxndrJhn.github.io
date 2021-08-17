@@ -12,14 +12,14 @@ excerpt: >
   <h1 style="color: white;">I make robots smart.</h1>
   <p style="color: white;margin-top: 10px">So they help you get things done</p>
 feature_row:
-  - image_path: /assets/images/assess.png
+  - image_path: /assets/landing/assess.png
     alt: "Robots"
     title: "Assess"
     excerpt: "Start by identifying processes that are unstable or inefficient"
     url: "/robots/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/opti.png
+  - image_path: /assets/landing/optimize.png
     alt: "ultrasound ndt"
     title: "Optimize"
     excerpt: "Make your existing processes more efficient by optimizing the workflow."
@@ -59,4 +59,9 @@ feature_row:
     <button class="btn btn--primary" type="submit">Send</button>
 
   </form>
+</div>
+<div class="container">
+  <h2 id="contact">Schedule a Meeting</h2>
+  <div class="calendly-inline-widget" data-url="https://calendly.com/jahn-alexander/15min" style="width:100%;height:700px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </div>
