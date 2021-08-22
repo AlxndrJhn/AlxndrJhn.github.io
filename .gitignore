@@ -1,0 +1,8 @@
+
+*.Identifier
+.vscode/settings.json
+
+_site/
+.sass-cache/
+**/_OLD_VERSION/
+**/.vscode/
