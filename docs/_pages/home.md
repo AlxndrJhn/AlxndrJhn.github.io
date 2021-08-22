@@ -3,20 +3,20 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_color: "#FFFFFF"
+  overlay_image: /assets/landing/hero.jpeg
   actions:
     - label: "Get in touch"
       url: "#contact"
 excerpt: >
-  <h1 style="color: white;">I make robots smart.</h1>
-  <p style="color: white;margin-top: 10px">So they help you get things done</p>
+  <h1>I Automate Complex Tasks</h1>
+  <p style="margin-top: 10px">Using Industrial Robots and Custom Software</p>
 feature_row:
   - image_path: /assets/landing/assess.png
-    alt: "Robots"
+    alt: "Assessment"
     title: "Assess"
     excerpt: "Start by identifying processes that are unstable or inefficient"
-    url: "/robots/"
+    url: "/optimize/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/landing/optimize.png
@@ -26,11 +26,11 @@ feature_row:
     url: "/ndt/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/auto.png
-    alt: "Automatize"
-    title: "Automatize"
+  - image_path: /assets/landing/automate.png
+    alt: "Automate"
+    title: "Automate"
     excerpt: "Make your internal process efficient or scale it up through custom software."
-    url: "/process/"
+    url: "/automate/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
@@ -40,7 +40,7 @@ feature_row:
 </header>
 {% include feature_row %}
 
-<div class="container">
+<!-- <div class="container">
   <h2 id="contact">Contact Form</h2>
   <form action="https://formspree.io/f/xnqlggyl" method="POST">
     <label>
@@ -64,4 +64,4 @@ feature_row:
   <h2 id="contact">Schedule a Meeting</h2>
   <div class="calendly-inline-widget" data-url="https://calendly.com/jahn-alexander/15min" style="width:100%;height:700px;"></div>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-</div>
+</div> -->
