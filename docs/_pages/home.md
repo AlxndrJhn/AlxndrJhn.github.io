@@ -10,29 +10,35 @@ header:
       url: "#contact"
 excerpt: >
   <h1>I Automate Complex Tasks</h1>
-  <p style="margin-top: 10px">Using Industrial Robots and Custom Software</p>
+  <p style="margin-top: 10px">Using Industrial Robots, Sensors and/or Custom Software</p>
 feature_row:
   - image_path: /assets/landing/assess.png
     alt: "Assessment"
     title: "Assess"
     excerpt: "Start by identifying processes that are unstable or inefficient"
-    url: "/optimize/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    # url: "/optimize/"
+    # btn_class: "btn--primary"
+    # btn_label: "Learn more"
   - image_path: /assets/landing/optimize.png
     alt: "ultrasound ndt"
     title: "Optimize"
-    excerpt: "Make your existing processes more efficient by optimizing the workflow."
-    url: "/ndt/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+    excerpt: "Develop a concept that fits your business needs with a strong business case"
+    # url: "/ndt/"
+    # btn_class: "btn--primary"
+    # btn_label: "Learn more"
   - image_path: /assets/landing/automate.png
     alt: "Automate"
     title: "Automate"
-    excerpt: "Make your internal process efficient or scale it up through custom software."
-    url: "/automate/"
+    excerpt: "Make your process efficient or scale it up"
+    # url: "/automate/"
+    # btn_class: "btn--primary"
+    # btn_label: "Learn more"
+  - image_path: /assets/landing/Alexander_Jahn.jpg
+    alt: "Alexander Jahn"
+    title: "I'm Alex"
+    url: "/cv/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "More about me"
 ---
 
 <header>
@@ -40,7 +46,7 @@ feature_row:
 </header>
 {% include feature_row %}
 
-<!-- <div class="container">
+<div class="container">
   <h2 id="contact">Contact Form</h2>
   <form action="https://formspree.io/f/xnqlggyl" method="POST">
     <label>
@@ -64,4 +70,4 @@ feature_row:
   <h2 id="contact">Schedule a Meeting</h2>
   <div class="calendly-inline-widget" data-url="https://calendly.com/jahn-alexander/15min" style="width:100%;height:700px;"></div>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-</div> -->
+</div>
