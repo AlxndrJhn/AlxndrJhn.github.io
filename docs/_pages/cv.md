@@ -27,7 +27,7 @@ layout: default
             <div class="timeline-badge">Oct 2019</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
-                <img class="timeline-img-banner" src="../assets/logo.svg" alt="" />
+                <img class="timeline-img-banner" src="../assets/logo.png" alt="" />
               </div>
               <div class="badge-container">
                 <span class="badge bg-secondary">Current Job</span>
@@ -444,7 +444,7 @@ layout: default
             <div class="timeline-badge">Aug 2014</div>
             <div class="timeline-panel">
               <div class="" style="padding: 5px; background-color: #ffffff">
-                <img class="timeline-img-banner" src="../assets/cv/2014_fraunhofer_iosb.jpg" alt="" />
+                <img class="timeline-img-banner" src="../assets/cv/2014_fraunhofer_iosb.png" alt="" />
               </div>
               <div class="timeline-heading">
                 <h3 class="timeline-title">Internship</h3>

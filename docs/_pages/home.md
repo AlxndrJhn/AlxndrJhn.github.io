@@ -44,6 +44,15 @@ feature_row:
 <header>
   <link rel="stylesheet" href="../assets/css/landing.css" />
   <link rel="stylesheet" href="../assets/css/navbar.css" />
+  <script>
+    window.addEventListener('load', (event) => {
+      console.log('page is fully loaded');
+      var element = document.querySelector('.site-logo');
+      element.classList.add("darkreader");
+      element = document.querySelector('.site-logo img');
+      element.classList.add("darkreader");
+    });
+  </script>
 </header>
 {% include feature_row %}
 

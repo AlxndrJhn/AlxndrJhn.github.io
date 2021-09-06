@@ -1,22 +1,29 @@
 /* logo */
 .site-logo img {
-    /* background: linear-gradient(45deg, #ee7752, #e73c7e, rgba(43, 43, 255, 1) 0%, rgba(37, 111, 111, 1) 100%);
-    background-size: 100% 100%;
-    animation: gradient 1s ease infinite; */
-    background: linear-gradient(-45deg, #000, #000, #000, #2b2bff, #256f6f, #914731, #000, #000);
-    background-size: 800% 800%;
-    animation: gradient 25s ease infinite;
-    animation-delay: 3s;
+  background: linear-gradient(-45deg, #000, #000, #000, #2b2bff, #256f6f, #914731, #000, #000);
+  background-size: 800% 800%;
+  animation: gradient 25s ease infinite;
+  animation-delay: 3s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .feature__item:not(:last-child) img {
+    filter: invert(100%) sepia(0%) saturate(7491%) hue-rotate(130deg) brightness(70%) contrast(92%);
   }
 
-  @keyframes gradient {
-    10% {
-      background-position: 0% 0%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    90% {
-      background-position: 0% 0%;
-    }
+  .site-logo img {
+    background: linear-gradient(-45deg, #fff, #fff, #fff, #2b2bff, #256f6f, #914731, #fff, #fff);
   }
+}
+
+@keyframes gradient {
+  10% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  90% {
+    background-position: 0% 0%;
+  }
+}
