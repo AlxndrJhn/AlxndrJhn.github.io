@@ -6,15 +6,7 @@
   animation-delay: 3s;
 }
 
-@media (prefers-color-scheme: dark) {
-  .feature__item:not(:last-child) img {
-    filter: invert(100%) sepia(0%) saturate(7491%) hue-rotate(130deg) brightness(70%) contrast(92%);
-  }
 
-  .site-logo img {
-    background: linear-gradient(-45deg, #fff, #fff, #fff, #2b2bff, #256f6f, #914731, #fff, #fff);
-  }
-}
 
 @keyframes gradient {
   10% {

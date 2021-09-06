@@ -14,10 +14,6 @@ li.masthead__menu-item:nth-child(1) a {
   color: white;
 }
 
-img{
-  mix-blend-mode: multiply;
-}
-
 /* hero styling */
 .page__hero--overlay .btn {
   color: #3d4144;
