@@ -612,8 +612,7 @@ layout: default
                   <li>Client and supplier communication</li>
                   <li>Production supervision and planning</li>
                 </ul>
-                At `Werkstatt Neuwerk`
-                <a href="https://stiftung-mensch.com/" target="_blank" rel="noopener noreferrer">Link</a>
+                At <a href="https://stiftung-mensch.com/" target="_blank" rel="noopener noreferrer">`Werkstatt Neuwerk`</a>
               </div>
             </div>
           </li>
@@ -634,7 +633,8 @@ layout: default
                   <li>Driving services</li>
                   <li>Minor manual work like painting, construction, handy-man</li>
                 </ul>
-              At `Werkstatt Neuwerk` <a href="https://stiftung-mensch.com/" target="_blank" rel="noopener noreferrer">Link</a></div>
+                At <a href="https://stiftung-mensch.com/" target="_blank" rel="noopener noreferrer">`Werkstatt Neuwerk`</a>
+              </div>
             </div>
           </li>
 

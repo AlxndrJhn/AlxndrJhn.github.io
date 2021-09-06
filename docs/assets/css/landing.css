@@ -5,6 +5,9 @@ li.masthead__menu-item:nth-child(1) {
   pointer-events: none;
   cursor: default;
   text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding:0;
 }
 
 li.masthead__menu-item:nth-child(1) a {
