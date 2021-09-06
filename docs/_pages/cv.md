@@ -9,6 +9,7 @@ layout: default
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/timeline.css" />
   <link rel="stylesheet" href="../assets/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/navbar.css" />
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/js/ScrollTrigger.min.js"></script>
   <script src="../assets/js/scrollToTop.js"></script>

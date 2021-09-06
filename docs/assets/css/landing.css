@@ -7,11 +7,15 @@ li.masthead__menu-item:nth-child(1) {
   text-decoration: none;
   width: 100px;
   text-align: center;
-  padding:0;
+  padding: 0;
 }
 
 li.masthead__menu-item:nth-child(1) a {
   color: white;
+}
+
+img{
+  mix-blend-mode: multiply;
 }
 
 /* hero styling */

@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#FFFFFF"
-  overlay_image: /assets/landing/hero.jpeg
+  overlay_image: /assets/landing/hero.png
   actions:
     - label: "Get in touch"
       url: "#contact"
@@ -43,6 +43,7 @@ feature_row:
 
 <header>
   <link rel="stylesheet" href="../assets/css/landing.css" />
+  <link rel="stylesheet" href="../assets/css/navbar.css" />
 </header>
 {% include feature_row %}
 
@@ -50,19 +51,19 @@ feature_row:
   <h2 id="contact">Contact Form</h2>
   <form action="https://formspree.io/f/xnqlggyl" method="POST">
     <label>
-      Your email:
+      Email:
       <input type="email" name="_replyto" />
     </label>
     <label>
-      Your phone number:
+      Phone number:
       <input type="text" name="telehone" />
     </label>
     <label>
-      Your message:
+      Message:
       <textarea name="message"></textarea>
     </label>
 
-    <button class="btn btn--primary" type="submit">Send</button>
+    <button class="btn btn--primary" type="submit">Send (redirects to reCaptcha)</button>
 
   </form>
 </div>
