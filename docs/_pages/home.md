@@ -42,6 +42,7 @@ feature_row:
 ---
 
 <header>
+  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
   <link rel="stylesheet" href="../assets/css/landing.css" />
   <link rel="stylesheet" href="../assets/css/navbar.css" />
   <script>
