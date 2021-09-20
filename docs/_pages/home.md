@@ -6,39 +6,30 @@ header:
   overlay_color: "#FFFFFF"
   overlay_image: /assets/landing/hero.png
   actions:
-    - label: "Get in touch"
+    - label: "Schedule a Quick Call"
       url: "#contact"
 excerpt: >
-  <h1>I Automate Complex Tasks</h1>
-  <p style="margin-top: 10px">Using Industrial Robots, Sensors and/or Custom Software</p>
+  <h1>Indepentent Software Dev</h1>
+  <p style="margin-top: 10px">Desktop or Web Applications</p>
 feature_row:
-  - image_path: /assets/landing/assess.png
-    alt: "Assessment"
-    title: "Assess"
-    excerpt: "Start by identifying processes that are unstable or inefficient"
-    # url: "/optimize/"
-    # btn_class: "btn--primary"
-    # btn_label: "Learn more"
   - image_path: /assets/landing/optimize.png
-    alt: "ultrasound ndt"
-    title: "Optimize"
-    excerpt: "Develop a concept that fits your business needs with a strong business case"
-    # url: "/ndt/"
-    # btn_class: "btn--primary"
-    # btn_label: "Learn more"
-  - image_path: /assets/landing/automate.png
-    alt: "Automate"
-    title: "Automate"
-    excerpt: "Make your process efficient or scale it up"
-    # url: "/automate/"
-    # btn_class: "btn--primary"
-    # btn_label: "Learn more"
+    title: "Skills"
+    excerpt: "Desktop, web and industry-specific tech knowledge that I can offer"
+    url: "/skills/"
+    btn_class: "btn--secondary"
+    btn_label: "Services offered"
   - image_path: /assets/landing/Alexander_Jahn.jpg
-    alt: "Alexander Jahn"
     title: "I'm Alex"
+    excerpt: "I love tackling research heavy projects and deliver solutions in an agile way."
     url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "More about me"
+  - image_path: /assets/landing/automate.png
+    title: "Portfolio"
+    excerpt: "See some cool projects I worked on."
+    url: "/portfolio/"
+    btn_class: "btn--secondary"
+    btn_label: "Portfolio"
 ---
 
 <header>

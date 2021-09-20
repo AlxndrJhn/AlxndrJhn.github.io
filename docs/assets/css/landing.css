@@ -65,11 +65,7 @@ h2 {
 }
 
 /* portrait */
-div.feature__item:last-child {
-  padding-top: 35px;
-}
-
-div.feature__item:last-child img {
+div.feature__item:nth-child(2) img {
   /* filter: grayscale(100%); */
   border-radius: 50%;
 }

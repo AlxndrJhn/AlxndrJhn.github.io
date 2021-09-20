@@ -43,7 +43,7 @@ analytics:
 author:
   name: *name # *name is a YAML reference pointing to the &anchor earlier
   avatar: "/assets/landing/Alexander_Jahn.jpg"
-  bio: "Software Dev with background in robotics"
+  bio: "Software Dev for desktop, web and industrial applications"
   location: "Cologne, Germany"
   links:
     - label: "Linkedin"
@@ -123,15 +123,6 @@ kramdown:
 
 # Collections
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -156,6 +147,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 # Sass/SCSS
 sass:
