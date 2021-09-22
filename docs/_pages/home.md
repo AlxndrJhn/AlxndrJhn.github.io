@@ -6,27 +6,27 @@ header:
   overlay_color: "#FFFFFF"
   overlay_image: /assets/landing/hero.png
   actions:
-    - label: "Schedule a Quick Call"
+    - label: "Direkt Termin vereinbaren"
       url: "#contact"
 excerpt: >
-  <h1>Indepentent Software Dev</h1>
-  <p style="margin-top: 10px">Desktop or Web Applications</p>
+  <h1>Freiberuflicher Softwareentwickler</h1>
+  <p style="margin-top: 10px">Desktop, Web und Industrie</p>
 feature_row:
-  - image_path: /assets/landing/optimize.png
+  - image_path: /assets/landing/skills.png
     title: "Skills"
-    excerpt: "Desktop, web and industry-specific tech knowledge that I can offer"
+    excerpt: "Angebotene Dienstleistungen"
     url: "/skills/"
     btn_class: "btn--secondary"
-    btn_label: "Services offered"
+    btn_label: "Skills"
   - image_path: /assets/landing/Alexander_Jahn.jpg
-    title: "I'm Alex"
-    excerpt: "I love tackling research heavy projects and deliver solutions in an agile way."
+    title: "Ich bin Alex"
+    excerpt: "Ich kann ihr Full-Stack Entwicklungsprojekt umsetzen."
     url: "/cv/"
     btn_class: "btn--primary"
-    btn_label: "More about me"
-  - image_path: /assets/landing/automate.png
+    btn_label: "Mehr über mich"
+  - image_path: /assets/landing/portfolio.png
     title: "Portfolio"
-    excerpt: "See some cool projects I worked on."
+    excerpt: "Projekte an denen ich mitgewirkt habe."
     url: "/portfolio/"
     btn_class: "btn--secondary"
     btn_label: "Portfolio"

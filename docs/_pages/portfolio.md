@@ -6,4 +6,4 @@ collection: portfolio
 entries_layout: grid
 classes: wide
 ---
-Hello portfolio
+Hier eine Auswahl von Projekten die ich umgesetzt habe.
