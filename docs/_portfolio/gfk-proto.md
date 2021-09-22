@@ -7,7 +7,7 @@ sidebar:
   - title: "Rolle"
     text: "Software Dev"
   - title: "Aufgaben"
-    text: "Konzeption und Umsetzung qder Software"
+    text: "Konzeption und Umsetzung der Software"
   - title: "Techstack"
     text: "Python, ABB Rapid, zustandsbasierte Prozesssteuerung und Prozessführung, Docker"
   - title: "Projektlaufzeit"
