@@ -7,7 +7,7 @@ title: "Skills"
 Python, C# .Net, Javascript/Typescript, SQL/Postgres, C++, C, Matlab, ABB Rapid, Fanuc TP
 
 <h3>Frontend</h3>
-Vue (Nuxt), Styled Components, Vuetify/Bootstrap, Material UI, HTML5 & CSS/Sass
+CMS Wordpress/Joomla, Vue (Nuxt), Styled Components, Vuetify/Bootstrap, Material UI, HTML5 & CSS/Sass
 
 <h3>Backend</h3>
 Python, Node.js, Serverless, PostgreSQL, SQL Schema Design, DB Migrations, MongoDB, JWT, API Integration, OpenAPI, Swagger, JSON Schema, Request Validation, REST, API Design & Docs
