@@ -43,8 +43,8 @@ analytics:
 author:
   name: *name # *name is a YAML reference pointing to the &anchor earlier
   avatar: "/assets/landing/Alexander_Jahn.jpg"
-  bio: "Software Dev for desktop, web and industrial applications"
-  location: "Cologne, Germany"
+  bio: "Freiberufler für Desktop, Web und Industrie"
+  location: "Köln"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-in"
@@ -68,7 +68,8 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AlxndrJhn"
-
+    - label: "Impressum"
+      url: "/impressum/"
 # Reading Files
 include:
   - .htaccess

@@ -6,7 +6,7 @@ header:
   overlay_color: "#FFFFFF"
   overlay_image: /assets/landing/hero.png
   actions:
-    - label: "Direkt Termin vereinbaren"
+    - label: "direkt Termin vereinbaren"
       url: "#contact"
 excerpt: >
   <h1>Freiberuflicher Softwareentwickler</h1>
