@@ -2,7 +2,9 @@
 permalink: /skills/
 title: "Skills"
 ---
-
+<header>
+  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
+</header>
 <h3>Languages</h3>
 Python, C# .Net, Javascript/Typescript, SQL/Postgres, C++, C, Matlab, ABB Rapid, Fanuc TP
 

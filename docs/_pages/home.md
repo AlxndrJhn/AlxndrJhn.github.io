@@ -20,7 +20,7 @@ feature_row:
     btn_label: "Skills"
   - image_path: /assets/landing/Alexander_Jahn.jpg
     title: "Ich bin Alex"
-    excerpt: "Ich kann ihr Full-Stack Entwicklungsprojekt umsetzen."
+    excerpt: "Ich kann Ihr Full-Stack Entwicklungsprojekt umsetzen."
     url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Mehr über mich"

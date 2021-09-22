@@ -29,7 +29,9 @@ gallery:
     image_path: /assets/portfolio/single-vane-anlage/total_2.png
     title: "Anlage in Produktion"
 ---
-
+<header>
+  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
+</header>
 In diesem Projekt wurde eine innovative Inspektionsanlage für große Turbinenteile entwickelt. Bestehend PC-basierter Prozesssteuerung, SPS, Ultraschall NDT Hardware, ABB Roboter und Wasserkreislauf.
 
 Die Messpunkte werden durch ein GOM System erstellt, die Software erstellt eine adaptive Trajektorienplanung.

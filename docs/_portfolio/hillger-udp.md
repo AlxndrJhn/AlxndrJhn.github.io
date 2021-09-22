@@ -25,7 +25,9 @@ gallery:
     image_path: /assets/portfolio/hillger-udp/ndt-card.jpg
     title: "Hillger Hardware"
 ---
-
+<header>
+  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
+</header>
 Anbindung von Hillger NDT Messkarten with REST Schnittstelle. Ultraschalldaten werden auch via UDP gestreamt. Inklusive Ultraschall-Simulator.
 
 {% include gallery %}
