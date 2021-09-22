@@ -10,7 +10,7 @@ header:
       url: "#contact"
 excerpt: >
   <h1>Freiberuflicher Softwareentwickler</h1>
-  <p style="margin-top: 10px">Desktop, Web und Industrie</p>
+  <p style="margin-top: 10px">Desktop, Web und Industrie ab 65€/Std</p>
 feature_row:
   - image_path: /assets/landing/skills.png
     title: "Skills"
