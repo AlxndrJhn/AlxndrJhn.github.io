@@ -1,6 +1,6 @@
 ---
 title: "Ultraschall-Hardware zu REST Schnittstelle"
-excerpt: "Desktop C# Software zum flexiblen Anbinden von Hillger NDT Hardware."
+excerpt: "Desktop C# Software zum flexiblen Anbinden von Hillger NDT Hardware"
 header:
   teaser: /assets/portfolio/hillger-udp/teaser.png
 sidebar:
@@ -26,7 +26,7 @@ gallery:
     title: "Hillger Hardware"
 ---
 <header>
-  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
+
 </header>
 Anbindung von Hillger NDT Messkarten with REST Schnittstelle. Ultraschalldaten werden auch via UDP gestreamt. Inklusive Ultraschall-Simulator.
 

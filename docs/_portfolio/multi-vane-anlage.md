@@ -1,6 +1,6 @@
 ---
 title: "Anlagenentwicklung"
-excerpt: "Projektmanagement, Prozesssteuerung, Datenverarbeitung, Robotik, Desktop C# Software."
+excerpt: "Projektmanagement, Prozesssteuerung, Datenverarbeitung, Robotik, Desktop C# Software"
 header:
   image: /assets/portfolio/multi-vane-anlage/cover.png
   teaser: /assets/portfolio/multi-vane-anlage/teaser.png
@@ -32,9 +32,6 @@ gallery:
     image_path: /assets/portfolio/multi-vane-anlage/total_2.png
     title: "Anlage in Produktion"
 ---
-<header>
-  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
-</header>
 In diesem Projekt wurde eine innovative Inspektionsanlage für Turbinenteile entwickelt. Bestehend aus großen Touchscreen, sekundären Bildschirm innerhalb der Zelle, SPS, Ultraschall NDT Hardware, ABB Roboter und Wasserkreislauf.
 
 Vor jeder Messung wird die Anlage kalibriert. Inklusive Nutzermanagement.

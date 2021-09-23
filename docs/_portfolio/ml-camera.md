@@ -17,9 +17,6 @@ gallery:
     image_path: /assets/portfolio/ml-camera/total.png
     title: "Total"
 ---
-<header>
-  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
-</header>
 In diesem Projekt wurde eine KI trainiert, die gekörnte Seriennummer auf Gussteilen lesen kann.
 
 {% include gallery %}

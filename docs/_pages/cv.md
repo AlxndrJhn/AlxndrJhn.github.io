@@ -1,11 +1,10 @@
 ---
 permalink: /cv/
-title: "CV"
+title: CV
 layout: default
 ---
 
 <header>
-  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../assets/css/style.css" />
   <link rel="stylesheet" href="../assets/css/timeline.css" />

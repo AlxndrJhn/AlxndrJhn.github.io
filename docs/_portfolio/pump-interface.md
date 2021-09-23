@@ -19,7 +19,7 @@ gallery:
     image_path: /assets/portfolio/pump-interface/teaser.png
 ---
 <header>
-  <script defer data-domain="alxndrjhn.github.io" src="https://plausible.io/js/plausible.js"></script>
+
 </header>
 In diesem Projekt sollte eine Membranpumpe von einem PC gesteuert werden, diese hat ein 4-20mA Analoginterface.
 Umgesetzt wurde das Gerät mit einem Arduino mit Display und manuellem Override.
