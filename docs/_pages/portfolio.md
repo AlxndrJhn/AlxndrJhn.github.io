@@ -6,7 +6,7 @@ collection: portfolio
 entries_layout: grid
 classes: wide
 ---
-Hier eine Auswahl von Projekten die ich umgesetzt habe.
+Hier eine Auswahl von Projekten, die ich umgesetzt habe.
 
 <style>
 li.masthead__menu-item:nth-child(4) {

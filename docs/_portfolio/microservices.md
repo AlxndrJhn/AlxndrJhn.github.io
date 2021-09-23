@@ -1,6 +1,6 @@
 ---
 title: "KI+Mensch: Microservice Architektur "
-excerpt: "Datenextraktion, KI basierte Bildsegmentierung, Job Queue System"
+excerpt: "Datenextraktion, KI basierte Bildsegmentierung, Job Queue System für eine kommerzielle API"
 header:
   teaser: /assets/portfolio/microservices/teaser.png
 sidebar:
