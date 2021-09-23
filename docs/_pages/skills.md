@@ -36,9 +36,12 @@ Python, Node.js, Serverless, PostgreSQL, SQL Schema Design, DB Migrations, Mongo
 
 Docker, CI & CD Automation, GitLab/Github, Bash/Shell
 
-## Infrastructure
+## Infrastrukturen
 
 Linux, GCS (Firebase, Cloud Functions, App Engine, API gateway), AWS (IAM, EC2, RDS, S3, Lambda), SSL
+## 3D Druck (FDM)
+
+Design in FreeCad, Slicen, Materialien: PLA, ABS, PETG, TPU
 
 ## Bildung
 

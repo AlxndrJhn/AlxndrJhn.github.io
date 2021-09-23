@@ -9,7 +9,7 @@ sidebar:
   - title: "Aufgaben"
     text: "Konzeption und Umsetzung der Software und 3D gedrucktes Gehäuse "
   - title: "Techstack"
-    text: "Arduino, Seriell, C# .Net"
+    text: "C++ (Arduino), Seriell, C# .Net"
   - title: "Projektlaufzeit"
     text: "1 Woche"
 gallery:

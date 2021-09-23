@@ -48,27 +48,27 @@ feature_row:
 {% include feature_row %}
 
 <div class="container">
-  <h2 id="contact">Contact Form</h2>
+  <h2 id="contact">Kontaktformular</h2>
   <form action="https://formspree.io/f/xnqlggyl" method="POST">
     <label>
       Email:
       <input type="email" name="_replyto" />
     </label>
     <label>
-      Phone number:
+      Telefonnummer:
       <input type="text" name="telehone" />
     </label>
     <label>
-      Message:
+      Nachricht:
       <textarea name="message"></textarea>
     </label>
 
-    <button class="btn btn--primary" type="submit">Send (redirects to reCaptcha)</button>
+    <button class="btn btn--primary" type="submit">Senden (geht über reCaptcha)</button>
 
   </form>
 </div>
 <div class="container">
-  <h2 id="contact">Schedule a Meeting</h2>
+  <h2 id="contact">Termin vereinbaren</h2>
   <div class="calendly-inline-widget" data-url="https://calendly.com/jahn-alexander/15min" style="width:100%;height:700px;"></div>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </div>
