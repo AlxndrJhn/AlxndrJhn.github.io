@@ -70,3 +70,7 @@ Nachdem ein Formular abgesendet wurde, ist die Nutzer IP-Adresse in der Datenban
 <video muted controls width="100%" >
     <source src="../assets/releases/nf-user-filter/videos/06_Stored_IP.mp4" type="video/mp4">
 </video>
+
+## Alle gespeicherten IP Adressen speichern
+
+Wenn man alle gespeicherten IPs auf einmal löschen möchte, muss man lediglich das Plugin über den Wordpress-Plugin-Manager einmal deaktivieren und re-aktivieren.
