@@ -1,5 +1,5 @@
 ---
-permalink: /nf-user-filter/
+permalink: /nfuserfilter/
 title: "Nex Forms User Filter"
 ---
 
