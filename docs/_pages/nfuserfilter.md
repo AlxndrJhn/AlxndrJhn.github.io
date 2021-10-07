@@ -4,7 +4,14 @@ title: "Nex Forms User Filter"
 ---
 
 Dies ist die Dokumentation zum Wordpress Plugin `nf-user-filter` version 0.2. Das Plugin erlaubt eine Zugangsbeschränkung zu einem
-<a target="_blank" rel="noopener noreferrer" href="https://de.wordpress.org/plugins/nex-forms-express-wp-form-builder/">Nex-Forms Formular</a>
+<a target="_blank" rel="noopener noreferrer" href="https://de.wordpress.org/plugins/nex-forms-express-wp-form-builder/">Nex-Forms Formular</a>.
+
+## Funktionsweise
+
+Nachdem das Plugin installiert und das gewünschte Nex-Forms Formular vorbereitet wurde (siehe Plugin-Einbau unten):
+
+Wenn ein User das Nex-Forms Formular abschickt, wird sowohl ein Cookie gespeichert mit 30 Tagen Laufzeit als auch die IP-Adresse ein einer extra Datenbank-Tabelle abgespeichert.
+Surft der gleiche Nutzer mit diesem Cookie oder dieser IP-Adresse erneut auf das Formular, so wird das Formular nicht angezeigt und stattdessen ein Text (z.B. 'Sie haben bereits teilgenommen') dargestellt.
 
 ## Download
 
@@ -23,13 +30,13 @@ Im Wordpress Adminbereich unter Plugins > "Add new" > "Upload Plugin" die zuvor 
 ## Plugin einbauen
 
 Nachdem das Plugin installiert wurde, kann es auf der entsprechenden Seite als Shortcode eingefügt werden.
-Dabei muss man den bestehenden Shortcode des Nex-Forms Formulars:
+Dabei muss man den bestehenden Shortcode des Nex-Forms Formulars
 
 ```
 [NEXForms id="1"]
 ```
 
-Mit einem neuen Shortcode umhüllen, hier kann auch der Text eingestellt werden, der angezeigt wird wenn man bereits teilgenommen hat:
+mit einem neuen Shortcode umhüllen, hier kann auch der Text eingestellt werden, der angezeigt wird wenn man bereits teilgenommen hat:
 
 ```
 [nf-user-filter alreadySubmitted="Sie haben bereits teilgenommen"]
@@ -43,7 +50,7 @@ Siehe das folgende Video:
 </video>
 
 ## Plugin von Nex Forms Formular entfernen
-Um das Plugin von einem Formular zu entfernen:
+Um das Plugin von einem Formular zu entfernen wird der oben erklärte Schritt umgekehrt:
 <video muted controls width="100%" >
     <source src="../assets/releases/nf-user-filter/videos/03_Removal.mp4" type="video/mp4">
 </video>
